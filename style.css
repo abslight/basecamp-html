@@ -1,0 +1,125 @@
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+.container{
+    min-height:100%;
+   position: relative;
+}
+.body{
+    padding: 0px;
+   padding-bottom: 60px;
+}
+.footer{
+    position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 60px;
+}
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+ }
+div{
+    display: block;
+}
+.navBar{
+    color: rgb(255, 255, 255);
+    background-color:grey;
+    height: 60px;
+    width: 100%;
+}
+.info{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.tmyk{
+display: block;
+font-size: 50px;
+text-align: center;
+color: rgb(219, 219, 71);
+margin-top: 0px;
+padding: 200px;
+background-color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.square{
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(163, 206, 152); 
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.right{
+    position: static;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.middle{
+    position: static;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.left{
+    position: static;
+    margin-left: 160px;
+    margin-right: 75px;
+    
+}
+.rec{
+    
+    width: 550px;
+    height: 300px;
+    background-color: rgb(226, 176, 68); 
+    margin-bottom: 10px;
+}
+.rec1{
+    float: left;
+    position: static;
+    margin-left: 160px;
+    margin-right: 2px;
+    
+}
+.rec2{
+    float: right;
+    position: static;
+    margin-left: 2px;
+    margin-right: 160px;
+
+ }
+ .column{
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    padding: 12;
+}
+.par{
+    position: static;
+    float: left;
+    width: 300px; 
+    margin-left: 300px;
+}
+.par2{
+    position: static;
+    float: right;
+    width: 300px; 
+    margin-right: 300px;
+} 
+footer{
+    line-height: 100px;
+    position: fixed;
+    bottom:0px;
+    width: 100%;
+    height: 50px;;
+    margin-top: 30px;
+    background-color: rgb(53, 53, 94);
+}
